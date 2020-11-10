@@ -11,7 +11,7 @@ import (
 	"github.com/packethost/cacher/protos/cacher"
 	tink "github.com/tinkerbell/tink/protos/hardware"
 	tw "github.com/tinkerbell/tink/protos/workflow"
-	tinkUtil "github.com/tinkerbell/tink/util"
+	tinkUtil "github.com/tinkerbell/tink/pkg"
 
 	"github.com/pkg/errors"
 	"github.com/prometheus/client_golang/prometheus"
